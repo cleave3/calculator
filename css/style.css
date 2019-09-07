@@ -3,12 +3,16 @@ body {
     text-align: center;
 }
 
+h2{
+color: white;
+}
+
 .box{
     width: 420px;
     margin: 50px auto;
     background-color: white;
     padding: 10px;
-    background-color: gray;
+    background-color: #6e6a6a;
 }
 
 .input{
@@ -27,7 +31,7 @@ input[type= button] {
     margin: 10px auto;
     box-sizing: border-box;
     padding: 20px;
-    background-color: #ebe8e2;
+    background-color: #ddd4c4;
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -57,6 +61,7 @@ p{
     border: none;
     font-size: 25px;
     box-shadow: 5px 5px 5px #4b4646;
+    outline: 0;
 }
 
 .clear input:active{
